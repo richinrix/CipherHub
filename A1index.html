@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CipherHub/A1Z26</title>
+    <link rel="stylesheet" href="A1styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="logo" draggable="true">Cipher ~Hub</h1>
+      </div>
+      <a class="home-logo" href="index.html"
+        ><img
+          src="images/homeicon-dark.png"
+          onmouseover="this.src='images/homeicon-cyan.png'"
+          onmouseout="this.src='images/homeicon-dark.png'"
+          alt=""
+          srcset=""
+      /></a>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="a1z26" href="A1index.html">A1Z26</a>
+          </li>
+          <li>
+            <a class="atbash" href="Atindex.html"
+              >ATBASH</a
+            >
+          </li>
+          <li>
+            <a class="ceaser" href="Ceindex.html"
+              >CEASER</a
+            >
+          </li>
+          <li>
+            <a class="vigenere" href="Viindex.html"
+              >Vigenère</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a class="gh-logo" target="_blank" href="https://github.com/richinrix"
+        ><img
+          src="images/GitHub-Mark-Light-32px.png"
+          onmouseover="this.src='images/GitHub-Mark-32px.png'"
+          onmouseout="this.src='images/GitHub-Mark-Light-32px.png'"
+          alt=""
+          srcset=""
+      /></a>
+    </header>
+    <div id="title">
+      <h1>A1Z26</h1>
+    </div>
+    <div class="info">
+      <p>
+        The A1Z26 Cipher is an extremely simple cipher used in the end-cards of
+        Gravity Falls. In fact, it is the simplest of the 4 ciphers used in the
+        show. As the name implies, A encodes to 1, Z encodes to 26. The letter
+        of the alphabet corresponds with the position of that letter.
+      </p>
+    </div>
+    <div class="btn">
+      <button class="clear">Clear</button>
+    </div>
+    <div class="textboxes">
+      <div class="encryptInput">
+        <input
+          autocomplete="off"
+          type="text"
+          placeholder="Enter the text to be encrypted"
+        />
+      </div>
+      <div class="decryptInput">
+        <input
+          autocomplete="off"
+          type="text"
+          placeholder="Enter the text to be decrypted"
+        />
+      </div>
+    </div>
+    <div class="btn">
+      <button class="bttn">Encrypt / Decrypt</button>
+    </div>
+
+    <div style="margin-bottom: 75px"></div>
+    <footer class="footer">
+      <p>Website developed by Richinrix &copy;2020</p>
+    </footer>
+
+    <script src="A1cipher.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+    ></script>
+  </body>
+</html>
