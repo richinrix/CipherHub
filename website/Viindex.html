@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CipherHub/VigenèreCipher</title>
+    <link rel="stylesheet" href="Vistyles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="logo" draggable="true">Cipher ~Hub</h1>
+      </div>
+      <a class="home-logo" href="index.html"
+        ><img
+          src="images/homeicon-dark.png"
+          onmouseover="this.src='images/homeicon-cyan.png'"
+          onmouseout="this.src='images/homeicon-dark.png'"
+          alt=""
+          srcset=""
+      /></a>
+      <nav>
+        <ul class="links">
+          <li>
+            <a class="a1z26" href="A1index.html">A1Z26</a>
+          </li>
+          <li>
+            <a class="atbash" href="Atindex.html"
+              >ATBASH</a
+            >
+          </li>
+          <li>
+            <a class="ceaser" href="Ceindex.html"
+              >CEASER</a
+            >
+          </li>
+          <li>
+            <a class="vigenere" href="Viindex.html"
+              >Vigenère</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <a class="gh-logo" target="_blank" href="https://github.com/richinrix"
+        ><img
+          src="images/GitHub-Mark-Light-32px.png"
+          onmouseover="this.src='images/GitHub-Mark-32px.png'"
+          onmouseout="this.src='images/GitHub-Mark-Light-32px.png'"
+          alt=""
+          srcset=""
+      /></a>
+    </header>
+
+    <div class="title">
+      <h1>Vigenère Cipher</h1>
+    </div>
+    <div class="info">
+      <p>
+        The Vigenère cipher (French pronunciation: ​[viʒnɛːʁ]) is a method of
+        encrypting alphabetic text by using a series of interwoven Caesar
+        ciphers, based on the letters of a keyword. It employs a form of
+        polyalphabetic substitution.
+        <br />
+        <br />
+      </p>
+    </div>
+    <div class="bttn">
+      <button class="clear btn">Clear</button>
+    </div>
+    <div class="textboxes">
+      <div class="encryptInput">
+        <input
+          autocomplete="off"
+          type="text"
+          placeholder="Enter the text to be encrypted"
+        />
+      </div>
+      <div class="keyInput">
+        <input autocomplete="off" type="text" placeholder="Enter the key" />
+      </div>
+      <div class="decryptInput">
+        <input
+          autocomplete="off"
+          type="text"
+          placeholder="Enter the text to be decrypted"
+        />
+      </div>
+    </div>
+    <div class="bttn">
+      <button id="btn" class="btn">Encrypt / Decrypt</button>
+    </div>
+
+    <footer class="footer">
+      <p>Website developed by Richinrix &copy;2020</p>
+    </footer>
+    <div style="margin-bottom: 75px"></div>
+    <script src="Vicipher.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"
+    ></script>
+  </body>
+</html>
