@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Nova+Mono&family=Rock+Salt&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
 
 *{
     margin: 0;
@@ -23,13 +23,14 @@ li,a{
 header{ 
     height: 50px;
     align-items: center;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Hanalei', cursive;
     font-weight: bolder;
-    font-size: 15px;
+    font-size: 20px;
     display: flex;
     text-align: center;
     justify-content: flex-end;
-    color: rgba(118, 248, 216, 0.822);
+    color: rgba(255, 255, 255, 0.822);
+    letter-spacing: 1px;
     padding: 30px 5px;
     border-bottom: 2px solid antiquewhite;
     background: linear-gradient(to right,rgb(7, 5, 22),rgb(17, 16, 27));
