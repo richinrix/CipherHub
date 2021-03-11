@@ -29,7 +29,7 @@ For example:
  
        'ZYXWVUTSRQPONMLKJIHGFEDCBA'
  2.   A1Z26:
- 3.   
+  
       The A1Z26 Cipher is an extremely simple cipher used in the end-cards of Gravity Falls. In fact, it is the simplest of the 4 ciphers used in the show. As the name implies, A encodes to 1, Z encodes to 26. The letter of the alphabet corresponds with the position of that letter.
       
  3.   Ceaser Shift
