@@ -1,4 +1,4 @@
-# -------------------------------------Cipherhub ------------------------------------------
+# -------------------------------------Cipherhub ------------------
 
 A githubpage developed using JS and CSS to showcase many basic cipher encryptions.
 
